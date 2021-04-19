@@ -38,13 +38,9 @@
     echo "<h3> Luigi from Supermario is ".$characters['Supermario']['Luigi']." years old</h3>";
     echo "<h4> Wolverine from Marvel has got a <u>weight</u> of ".$characters['Marvel']['Wolverine']." kilograms</h4>";
     
-    // $daten=[
-    //     "vorname"=>"Mario",
-    //     "zuname"=>"Hartleb",
-    //     "plz"=>1030
-    //     ];
-        foreach ($characters as $key=>$value){
-            echo "$key ist $value <br>";
+
+        foreach ($characters['Supermario'] as $key=>$value){
+            echo "$key is $value years old <br>";
             
         }
             
